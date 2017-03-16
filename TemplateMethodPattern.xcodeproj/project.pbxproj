@@ -13,6 +13,9 @@
 		DC90892B1E7A685400FDB431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9089291E7A685400FDB431 /* Main.storyboard */; };
 		DC90892D1E7A685400FDB431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC90892C1E7A685400FDB431 /* Assets.xcassets */; };
 		DC9089301E7A685400FDB431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC90892E1E7A685400FDB431 /* LaunchScreen.storyboard */; };
+		DC9089391E7A68C600FDB431 /* BlindMonkContinueSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9089381E7A68C600FDB431 /* BlindMonkContinueSkill.m */; };
+		DC90893F1E7A6B6200FDB431 /* BlindMonk_1.m in Sources */ = {isa = PBXBuildFile; fileRef = DC90893E1E7A6B6200FDB431 /* BlindMonk_1.m */; };
+		DC9089421E7A6F0C00FDB431 /* BlindMonk_2.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9089411E7A6F0C00FDB431 /* BlindMonk_2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		DC90892C1E7A685400FDB431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC90892F1E7A685400FDB431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC9089311E7A685400FDB431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9089371E7A68C600FDB431 /* BlindMonkContinueSkill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindMonkContinueSkill.h; sourceTree = "<group>"; };
+		DC9089381E7A68C600FDB431 /* BlindMonkContinueSkill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindMonkContinueSkill.m; sourceTree = "<group>"; };
+		DC90893D1E7A6B6200FDB431 /* BlindMonk_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindMonk_1.h; sourceTree = "<group>"; };
+		DC90893E1E7A6B6200FDB431 /* BlindMonk_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindMonk_1.m; sourceTree = "<group>"; };
+		DC9089401E7A6F0C00FDB431 /* BlindMonk_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindMonk_2.h; sourceTree = "<group>"; };
+		DC9089411E7A6F0C00FDB431 /* BlindMonk_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindMonk_2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,12 @@
 		DC9089141E7A685400FDB431 = {
 			isa = PBXGroup;
 			children = (
+				DC9089401E7A6F0C00FDB431 /* BlindMonk_2.h */,
+				DC9089411E7A6F0C00FDB431 /* BlindMonk_2.m */,
+				DC90893D1E7A6B6200FDB431 /* BlindMonk_1.h */,
+				DC90893E1E7A6B6200FDB431 /* BlindMonk_1.m */,
+				DC9089371E7A68C600FDB431 /* BlindMonkContinueSkill.h */,
+				DC9089381E7A68C600FDB431 /* BlindMonkContinueSkill.m */,
 				DC90891F1E7A685400FDB431 /* TemplateMethodPattern */,
 				DC90891E1E7A685400FDB431 /* Products */,
 			);
@@ -151,7 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC90893F1E7A6B6200FDB431 /* BlindMonk_1.m in Sources */,
+				DC9089421E7A6F0C00FDB431 /* BlindMonk_2.m in Sources */,
 				DC9089281E7A685400FDB431 /* ViewController.m in Sources */,
+				DC9089391E7A68C600FDB431 /* BlindMonkContinueSkill.m in Sources */,
 				DC9089251E7A685400FDB431 /* AppDelegate.m in Sources */,
 				DC9089221E7A685400FDB431 /* main.m in Sources */,
 			);

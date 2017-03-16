@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "BlindMonk_1.h"
+#import "BlindMonk_2.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    BlindMonk_1 *blindMonk1 = [[BlindMonk_1 alloc] init];
+    [blindMonk1 continueSkill];
+    NSLog(@"------------分割线--------------");
+    BlindMonk_2 *blindMonk2 = [[BlindMonk_2 alloc] init];
+    [blindMonk2 continueSkill];
 }
 
 
